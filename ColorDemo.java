@@ -47,6 +47,36 @@ public class ColorDemo {
 			                         { black, white, black, white } ,
 			                         { white, black, white, black } ,
 		                           };
+
+		//Mine: ........................................................
+		//System.out.println(black);
+		//Runigram.print(miniChessBoard);          //need public, not private
+		System.out.println();
+		// //Runigram.print(Runigram.flippedHorizontally(miniChessBoard));
+		// Runigram.print(Runigram.flippedVertically(miniChessBoard));
+		// Color pixel = new Color(255,255,255);
+		// print(Runigram.luminance(pixel));
+		//Runigram.print(Runigram.grayScaled(miniChessBoard));
+
+		// Color[][] image1 = {
+        //     { new Color(0, 0, 0), new Color(100, 0, 0), new Color(0, 0, 0), new Color(255, 0, 255) },
+        //     { new Color(0, 0, 0), new Color(0, 255, 175), new Color(0, 0, 0), new Color(0, 0, 0) },
+        //     { new Color(0, 0, 0), new Color(0, 0, 0), new Color(0, 15, 175), new Color(0, 0, 0) },
+        //     { new Color(255, 0, 255), new Color(0, 0, 0), new Color(0, 0, 0), new Color(255, 255, 255) }
+        // };
+		// Runigram.print(image1);
+		// System.out.println();
+		//Runigram.print(Runigram.scaled(image1,3,5));
+
+		//Runigram.print(Runigram.read("eyes.ppm"));
+		//Runigram.grayScaled(Runigram.read("eyes.ppm"));
+		
+		// Color[][] imageIn1 = Runigram.read("thor.ppm");
+		// Color[][] imageIn2 = Runigram.read("eyes.ppm");	
+		// Color[][] imageOut = null;									
+		// imageOut = Runigram.blend(imageIn1, imageIn2, 0.75);
+		// Runigram.setCanvas(imageOut); 
+		// Runigram.display(imageOut);	
 	}
 
     /**
